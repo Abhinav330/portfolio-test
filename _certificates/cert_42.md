@@ -1,8 +1,9 @@
 ---
 title: "Intro to SQL"
-date: ""
+date: 
 issuer: ""
 certificate_id: ""
 link: "https://www.kaggle.com/learn/certification/abhinavatall/intro-to-sql"
+image: ""
 layout: certificates
 ---

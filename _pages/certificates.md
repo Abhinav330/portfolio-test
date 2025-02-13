@@ -28,7 +28,7 @@ permalink: /certificates/
   }
 
   .certificate-card img {
-    width: 120%;
+    width: 100%;
     height: 150px;
     object-fit: cover;
     border-bottom: 2px solid #fff;

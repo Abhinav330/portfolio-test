@@ -8,10 +8,11 @@ layout: default
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <header>
-      {% if page.title %}
-        <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+    <header style="text-align: center;">
+      {% if page.image %}
+        <img src="{{ page.image }}" alt="{{ page.title }}" style="max-width: 300px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
       {% endif %}
+      <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
       {% if page.issuer %}
         <p><strong>Issued by:</strong> {{ page.issuer }}</p>
       {% endif %}
@@ -22,7 +23,7 @@ layout: default
         <p><strong>Certification ID:</strong> {{ page.certificate_id }}</p>
       {% endif %}
       {% if page.link %}
-        <p><a href="{{ page.link }}" target="_blank" class="btn">View Certificate</a></p>
+        <p><a href="{{ page.link }}" target="_blank" class="btn" style="background-color: #ff4500; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold;">View Certificate</a></p>
       {% endif %}
     </header>
 

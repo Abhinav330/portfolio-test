@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <header>
+      {% if page.title %}
+        <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+      {% endif %}
+      {% if page.issuer %}
+        <p><strong>Issued by:</strong> {{ page.issuer }}</p>
+      {% endif %}
+      {% if page.date %}
+        <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+      {% endif %}
+      {% if page.certificate_id %}
+        <p><strong>Certification ID:</strong> {{ page.certificate_id }}</p>
+      {% endif %}
+      {% if page.link %}
+        <p><a href="{{ page.link }}" target="_blank" class="btn">View Certificate</a></p>
+      {% endif %}
+    </header>
+
+    <section class="page__content">
+      {{ content }}
+    </section>
+  </article>
+</div>

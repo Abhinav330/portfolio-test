@@ -285,7 +285,7 @@ defaults:
 
   - scope:
       path: ""
-      type: certificates
+      type: certificate
     values:
       layout: single
       author_profile: true

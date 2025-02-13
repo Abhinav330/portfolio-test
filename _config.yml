@@ -283,6 +283,14 @@ defaults:
       author_profile: true
       share: true
 
+  - scope:
+      path: ""
+      type: certificates
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
 
 # Sass/SCSS
 sass:

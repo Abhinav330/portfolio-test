@@ -24,7 +24,7 @@ permalink: /certificates/
   }
 
   .certificate-card:hover {
-    transform: scale(5.0);
+    transform: scale(2.0);
   }
 
   .certificate-card img {

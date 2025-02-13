@@ -63,7 +63,11 @@ permalink: /certificates/
 <div class="certificate-container">
   {% for certificate in site.certificates %}
     <div class="certificate-card">
-      <img src="{{ certificate.image }}" alt="{{ certificate.title }}">
+      {% if certificate.image contains "://" %}
+        <img src="{{ certificate.image }}" alt="{{ certificate.title }}">
+      {% else %}
+        <img src="{{ certificate.image | prepend: "/images/" | prepend: base_path }}" alt="{{ certificate.title }}">
+      {% endif %}
       <div class="certificate-title">{{ certificate.title }}</div>
       <a href="{{ certificate.link }}" class="certificate-button" target="_blank">View</a>
     </div>

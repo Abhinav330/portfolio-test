@@ -4,16 +4,68 @@ title: "Certificates"
 permalink: /certificates/
 ---
 
-<h2>My Certifications</h2>
+<style>
+  .certificate-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .certificate-card {
+    width: 18%;
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
 
-{% for certificate in site.certificates %}
-  <div class="certificate">
-    <h3><a href="{{ certificate.url }}">{{ certificate.title }}</a></h3>
-    <p><strong>Issued by:</strong> {{ certificate.issuer }}</p>
-    <p><strong>Date:</strong> {{ certificate.date | date: "%B %d, %Y" }}</p>
-    {% if certificate.link %}
-      <p><a href="{{ certificate.link }}" target="_blank">View Certificate</a></p>
-    {% endif %}
-    <hr>
-  </div>
-{% endfor %}
+  .certificate-card:hover {
+    transform: scale(1.05);
+  }
+
+  .certificate-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 2px solid #fff;
+  }
+
+  .certificate-title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .certificate-button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 8px;
+    background: #ff4500;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .certificate-button:hover {
+    background: #ff5722;
+  }
+</style>
+
+<div class="certificate-container">
+  {% for certificate in site.certificates %}
+    <div class="certificate-card">
+      <img src="{{ certificate.image }}" alt="{{ certificate.title }}">
+      <div class="certificate-title">{{ certificate.title }}</div>
+      <a href="{{ certificate.link }}" class="certificate-button" target="_blank">View</a>
+    </div>
+  {% endfor %}
+</div>

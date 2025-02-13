@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-[Albert Einstein](/portfolio-test/images/albert_bhai.jpg){: .align-right width= "300px"}
+![Albert Einstein](/portfolio-test/images/albert_bhai.jpg){: .align-right width= "300px"}
 
 📍 Based in London, UK 🇬🇧  
 

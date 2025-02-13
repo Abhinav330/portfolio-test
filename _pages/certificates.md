@@ -24,11 +24,11 @@ permalink: /certificates/
   }
 
   .certificate-card:hover {
-    transform: scale(1.5);
+    transform: scale(5.0);
   }
 
   .certificate-card img {
-    width: 100%;
+    width: 120%;
     height: 150px;
     object-fit: cover;
     border-bottom: 2px solid #fff;

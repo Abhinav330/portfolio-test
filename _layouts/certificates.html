@@ -12,7 +12,7 @@ layout: default
       {% if page.image contains "://" %}
         <img src="{{ page.image }}" alt="{{ page.title }}" style="max-width: 300px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
       {% else %}
-        <img src="{{ page.image | prepend: "/images/" | prepend: base_path }}" alt="{{ page.title }}" style="max-width: 300px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <img src="{{ page.image | prepend: "/portfolio-test/images/" | prepend: base_path }}" alt="{{ page.title }}" style="max-width: 300px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
       {% endif %}
       <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
       {% if page.issuer %}

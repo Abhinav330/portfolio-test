@@ -14,7 +14,7 @@ permalink: /certificates/
   }
   
   .certificate-card {
-    width: 18%;
+    width: 25%;
     background: #222;
     border-radius: 10px;
     overflow: hidden;
@@ -24,7 +24,7 @@ permalink: /certificates/
   }
 
   .certificate-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.5);
   }
 
   .certificate-card img {

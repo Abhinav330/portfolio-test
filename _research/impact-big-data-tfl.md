@@ -4,6 +4,7 @@ description: "The transportation sector is undergoing a significant transformati
 
 date: 2024-02-14
 layout: research
+author_profile: true
 ---
 
 ![into_img](/portfolio-test/images/research/r1-intro.jpg)

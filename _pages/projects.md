@@ -26,7 +26,7 @@ permalink: /projects/
 
 /* Project Image - 10% */
 .project-image {
-    width: 10%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +40,7 @@ permalink: /projects/
 
 /* Project Info - 80% */
 .project-info {
-    width: 80%;
+    width: 60%;
     padding: 0 15px;
     text-align: left;
 }
@@ -53,12 +53,12 @@ permalink: /projects/
 
 .project-description {
     color: #bbb;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Project Buttons - 10% */
 .project-buttons {
-    width: 10%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;

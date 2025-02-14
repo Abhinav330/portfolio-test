@@ -235,7 +235,7 @@ collections:
     permalink: /:collection/:path/
   academic-research:
     output: true
-    permalink: "/academic-research/:title/"
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:

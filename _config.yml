@@ -235,7 +235,7 @@ collections:
     permalink: /:collection/:path/
   academic-research:
     output: true
-    permalink: /portfolio-test/:title/
+    permalink: "/portfolio-test/academic-research/:title/"
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -316,10 +316,7 @@ defaults:
       path: ""
       type: academic-research
     values:
-      layout: academic-research
-      author_profile: true
-      share: true
-
+      layout: research
 
 
 

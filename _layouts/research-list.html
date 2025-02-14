@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  <article class="page">
+    <header style="text-align: center;">
+      <h1 class="page__title">{{ page.title }}</h1>
+    </header>
+
+    <section class="page__content">
+      {{ content }}
+    </section>
+
+    <div class="research-container">
+      {% for research in site.academic-research %}
+        <div class="research-card">
+          <img src="{{ research.image | prepend: site.baseurl }}" alt="{{ research.title }}">
+          <div class="research-title">{{ research.title }}</div>
+          <a href="{{ research.url | relative_url }}" class="research-button">Read More</a>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>

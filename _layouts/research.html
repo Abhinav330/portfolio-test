@@ -5,18 +5,22 @@ layout: default
 {% include base_path %}
 
 <div id="main" role="main">
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="page">
     <header style="text-align: center;">
-      <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+      <h1 class="page__title">{{ page.title }}</h1>
+      {% if page.image %}
+        <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" style="max-width: 400px; border-radius: 10px;">
+      {% endif %}
+      {% if page.date %}
+        <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+      {% endif %}
+      {% if page.research_link %}
+        <p><a href="{{ page.research_link }}" target="_blank" class="btn" style="background-color: #ff4500; color: white;">Read Full Paper</a></p>
+      {% endif %}
     </header>
 
     <section class="page__content">
-      <p class="research-meta">📅 Published on {{ page.date | date: "%B %d, %Y" }}</p>
-      <p class="research-description">{{ page.description }}</p>
-      <hr>
-      <div class="research-content">
-        {{ content }}
-      </div>
+      {{ content }}
     </section>
   </article>
 </div>

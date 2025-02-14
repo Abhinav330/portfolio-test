@@ -7,7 +7,7 @@ layout: research
 author_profile: true
 ---
 
-![Intro](/portfolio-test/images/research/r3-intro.png)
+![Intro](/portfolio-test/images/research/r3-intro.jpg)
 
 # Introduction 
 In today's world, Travellers grapple with packing efficiently for various trips. This project addresses this challenge by developing an optimisation model to create optimal packing plans. The model leverages Operational Research techniques and considers factors like luggage weight restrictions, trip details, and item importance. By prioritising essential items and maximizing space utilisation, this model can generate packing plans that reduce stress, minimise the risk of exceeding weight limits, and ensure travellers bring everything they need for a smooth journey.

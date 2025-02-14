@@ -7,7 +7,7 @@ layout: research
 author_profile: true
 ---
 
-![Intro](/portfolio-test/images/research/r2-intro.png)
+![Intro](/portfolio-test/images/research/r2-intro.jpg)
 
 
 # Introduction

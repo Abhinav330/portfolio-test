@@ -16,7 +16,7 @@ layout: default
         <div class="project-card">
           <!-- Left Side: Project Image (10%) -->
           <div class="project-image">
-            <img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}">
+            <img src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" alt="{{ project.title }}">
           </div>
 
           <!-- Center: Project Info (80%) -->

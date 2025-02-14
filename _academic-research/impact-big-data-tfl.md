@@ -4,6 +4,7 @@ description: "The transportation sector is undergoing a significant transformati
 
 date: 2024-02-14
 layout: research
+permalink: "/portfolio-test/academic-research/impact-big-data-tfl/"
 ---
 
 

@@ -4,10 +4,18 @@ title: "Projects"
 permalink: /projects/
 ---
 
-## 🔥 My AI & Data Science Projects
-
-## 🔥 AI & Data Science Projects
-
 {% for project in site.projects %}
-  {% include project-card.html project=project %}
+  <div class="project-card">
+    <div class="project-image">
+      <img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}">
+    </div>
+    <div class="project-info">
+      <h2 class="project-title">{{ project.title }}</h2>
+      <p class="project-description">{{ project.description }}</p>
+    </div>
+    <div class="project-buttons">
+      <a href="{{ project.live }}" target="_blank" class="btn btn-primary">Use this project</a>
+      <a href="{{ project.github }}" target="_blank" class="btn btn-secondary">Code on GitHub</a>
+    </div>
+  </div>
 {% endfor %}

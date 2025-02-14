@@ -1,19 +1,17 @@
 ---
 layout: research-list
 title: "Academic Research"
-permalink: /portfolio-test/academic-research/
+permalink: /research/
 ---
 
-## 📚 My Academic Research Papers
-
-Explore my research work. Click on any title to read the full report.
+## 📚 Research Papers
 
 <div class="research-container">
-  {% for research in site.academic-research %}
+  {% for paper in site.research %}
     <div class="research-card">
-      <img src="{{ research.image | prepend: site.baseurl }}" alt="{{ research.title }}">
-      <div class="research-title">{{ research.title }}</div>
-      <a href="{{ research.url | relative_url }}" class="research-button">Read More</a>
+      <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
+      <p>{{ paper.date | date: "%B %d, %Y" }}</p>
+      <p>{{ paper.description }}</p>
     </div>
   {% endfor %}
 </div>

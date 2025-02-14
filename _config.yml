@@ -233,9 +233,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  academic-research:
+  research:
     output: true
-    permalink: /:collection/:path/
+    permalink: "/research/:path/"
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -314,12 +314,9 @@ defaults:
 # acadamic-research
   - scope:
       path: ""
-      type: academic-research
+      type: research
     values:
       layout: research
-      author_profile: true
-      share: true
-
 
 
 # Sass/SCSS

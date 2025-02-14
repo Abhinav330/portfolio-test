@@ -9,14 +9,9 @@ layout: default
     <header style="text-align: center;">
       <h1 class="page__title">{{ page.title }}</h1>
       {% if page.image %}
-        <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" style="max-width: 400px; border-radius: 10px;">
+        <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}">
       {% endif %}
-      {% if page.date %}
-        <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
-      {% endif %}
-      {% if page.research_link %}
-        <p><a href="{{ page.research_link }}" target="_blank" class="btn" style="background-color: #ff4500; color: white;">Read Full Paper</a></p>
-      {% endif %}
+      <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
     </header>
 
     <section class="page__content">

@@ -317,6 +317,8 @@ defaults:
       type: research
     values:
       layout: research
+      author_profile: true
+      share: true
 
 
 # Sass/SCSS

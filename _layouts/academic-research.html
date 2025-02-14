@@ -5,53 +5,29 @@ layout: default
 {% include base_path %}
 
 <div id="main" role="main">
+  {% include sidebar.html %}
+
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <header style="text-align: center;">
+      {% if page.image contains "://" %}
+        <img src="{{ page.image }}" alt="{{ page.title }}" style="max-width: 500px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+      {% else %}
+        <img src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" alt="{{ page.title }}" style="max-width: 300px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+      {% endif %}
       <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+      {% if page.researcher %}
+        <p><strong>Researcher:</strong> {{ page.researcher }}</p>
+      {% endif %}
+      {% if page.date %}
+        <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+      {% endif %}
+      {% if page.research_link %}
+        <p><a href="{{ page.research_link }}" target="_blank" class="btn" style="background-color: #ff4500; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold;">Read Full Paper</a></p>
+      {% endif %}
     </header>
 
     <section class="page__content">
-      <div class="research-container">
-        {% for research in site.academic-research %}
-        <div class="research-card">
-          <h2 class="research-title">
-            <a href="{{ research.url | relative_url }}">{{ research.title }}</a>
-          </h2>
-          <p class="research-description">{{ research.description }}</p>
-        </div>
-        {% endfor %}
-      </div>
+      {{ content }}
     </section>
   </article>
 </div>
-
-<style>
-/* Research Container */
-.research-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-}
-
-/* Research Card */
-.research-card {
-    background: #1c1c1c;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid #333;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.research-title a {
-    color: #4aa0ff;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.research-description {
-    color: #bbb;
-    font-size: 14px;
-}
-</style>

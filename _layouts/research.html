@@ -11,7 +11,7 @@ layout: default
     </header>
 
     <section class="page__content">
-      <p class="research-meta">Published on {{ page.date | date: "%B %d, %Y" }}</p>
+      <p class="research-meta">📅 Published on {{ page.date | date: "%B %d, %Y" }}</p>
       <p class="research-description">{{ page.description }}</p>
       <hr>
       <div class="research-content">
@@ -33,5 +33,12 @@ layout: default
     font-size: 16px;
     color: white;
     line-height: 1.6;
+}
+
+.research-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 </style>

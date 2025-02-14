@@ -1,7 +1,7 @@
 ---
 layout: research-list
 title: "Academic Research"
-permalink: /research/
+# permalink: /research/
 ---
 
 ## 📚 Research Papers

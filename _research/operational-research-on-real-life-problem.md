@@ -192,3 +192,21 @@ Personally, I believe this project provided valuable insights into applying OR a
 - Rosenthal, R.E., 2007. A gams tutorial. GAMS-A User’s Guide, 5(26), p.649.
 
 - Saleh, S.A. and Latif, T.I., 2009. Solving Linear Programming Problems By Using Excel’s Solver. Tikrit J. Pure Sci, 14, pp.87-98.
+
+
+
+
+## Disclaimer
+
+``` 
+This report was originally submitted as part of the coursework requirements for the Master of Science in Data Science and Analytics at the University of Westminster. The content reflects the author's academic research and findings at the time of submission.
+
+While efforts have been made to ensure accuracy, the report may not be free from errors or may not reflect the most current developments in the field. The views and conclusions expressed are those of the author and do not necessarily represent those of the University of Westminster or any affiliated institution.
+
+This document is provided for informational and educational purposes only. It should not be used as a substitute for professional advice or as an official representation of industry standards. The author and the University of Westminster disclaim any liability for any direct or indirect consequences resulting from the use of this material.
+
+```
+
+
+For any inquiries or permissions regarding the reproduction of this work, please contact the [author](mailto:abhinav33303@gmail.com).
+

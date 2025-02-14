@@ -353,3 +353,19 @@ The distribution curve shows it is a positively skewed distribution. It shows th
 # Final Thoughts
 
 From logistics and staffing to production and inventory management, data analytics is an invaluable tool for business success. By converting business problems into statistical questions and leveraging models, businesses can make informed decisions that drive efficiency and profitability.
+
+## Disclaimer
+
+``` 
+This report was originally submitted as part of the coursework requirements for the Master of Science in Data Science and Analytics at the University of Westminster. The content reflects the author's academic research and findings at the time of submission.
+
+While efforts have been made to ensure accuracy, the report may not be free from errors or may not reflect the most current developments in the field. The views and conclusions expressed are those of the author and do not necessarily represent those of the University of Westminster or any affiliated institution.
+
+This document is provided for informational and educational purposes only. It should not be used as a substitute for professional advice or as an official representation of industry standards. The author and the University of Westminster disclaim any liability for any direct or indirect consequences resulting from the use of this material.
+
+```
+
+
+For any inquiries or permissions regarding the reproduction of this work, please contact the [author](mailto:abhinav33303@gmail.com).
+
+

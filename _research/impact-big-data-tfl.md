@@ -9,27 +9,6 @@ author_profile: true
 
 ![into_img](/portfolio-test/images/research/r1-intro.jpg)
 
-## Disclaimer
-
-This report was originally submitted as part of the coursework requirements for the Master of Science in Data Science and Analytics at the University of Westminster. The content reflects the author's academic research and findings at the time of submission.
-
-While efforts have been made to ensure accuracy, the report may not be free from errors or may not reflect the most current developments in the field. The views and conclusions expressed are those of the author and do not necessarily represent those of the University of Westminster or any affiliated institution.
-
-This document is provided for informational and educational purposes only. It should not be used as a substitute for professional advice or as an official representation of industry standards. The author and the University of Westminster disclaim any liability for any direct or indirect consequences resulting from the use of this material.
-
-For any inquiries or permissions regarding the reproduction of this work, please contact the [author](mailto:abhinav33303@gmail.com).
-
-## Table of Contents
-
--	Introduction
--	Project Landscape	
--	Technology Adaptation	
--	Impact Analysis	
--	Solution Analysis	
--	Data Governance & ROI	
--	Conclusion	
--	References:
-
 ## Introduction
 The transportation sector is undergoing a significant transformation fueled by the ever-growing power of big data. As depicted in Figure 1, interest in big data has surged in recent years, reflecting its vast potential for improving efficiency, safety, and passenger experience. Transport for London (TfL), responsible for managing London's complex network of buses, trains, and cycling infrastructure, has emerged as a frontrunner in adopting big data solutions.
 
@@ -201,6 +180,20 @@ Forsdick, S. (2019) Big data in transport: How TfL is tracking and improving jou
 - Zhu, L., Yu, F. R., Wang, Y., Ning, B., & Tang, T. (2018). Big data analytics in intelligent transportation systems: A survey. IEEE Transactions on Intelligent Transportation Systems, 20(1), 383-398.
 
 
+
+## Disclaimer
+
+``` 
+This report was originally submitted as part of the coursework requirements for the Master of Science in Data Science and Analytics at the University of Westminster. The content reflects the author's academic research and findings at the time of submission.
+
+While efforts have been made to ensure accuracy, the report may not be free from errors or may not reflect the most current developments in the field. The views and conclusions expressed are those of the author and do not necessarily represent those of the University of Westminster or any affiliated institution.
+
+This document is provided for informational and educational purposes only. It should not be used as a substitute for professional advice or as an official representation of industry standards. The author and the University of Westminster disclaim any liability for any direct or indirect consequences resulting from the use of this material.
+
+```
+
+
+For any inquiries or permissions regarding the reproduction of this work, please contact the [author](mailto:abhinav33303@gmail.com).
 
 
 

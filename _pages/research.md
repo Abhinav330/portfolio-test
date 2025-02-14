@@ -1,6 +1,18 @@
 ---
 layout: research-list
 title: "Academic Research"
+permalink: /portfolio-test/research/
+---
+
+## 📚 Research Papers
+
+Welcome to my academic research collection. Click on a research paper to read more.
+
+
+
+<!-- ---
+layout: research-list
+title: "Academic Research"
 permalink: /research/
 ---
 
@@ -16,4 +28,5 @@ permalink: /research/
     <p>{{ paper.date | date: "%B %d, %Y" }}</p>
     <p>{{ paper.description }}</p>
   </div>
-{% endfor %}
+{% endfor %} -->
+

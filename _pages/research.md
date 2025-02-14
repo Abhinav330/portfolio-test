@@ -1,7 +1,7 @@
 ---
 layout: research-list
 title: "Academic Research"
-permalink: /portfolio-test/research/
+permalink: /research/
 ---
 
 ## 📚 Research Papers

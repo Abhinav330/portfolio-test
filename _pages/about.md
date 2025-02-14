@@ -22,7 +22,7 @@ I bridge the gap between AI and business, ensuring that cutting-edge models are 
 
 🚀 I am a Data Scientist & AI Engineer, passionate about building intelligent systems and LLM-based AI agents.  
 
-🎓 I recently completed MSc in Data Science & Analytics from University of Westminster. [Check out my acadmic research done at this time.](https://abhinav330.github.io/portfolio-test/year-archive/)
+🎓 I recently completed MSc in Data Science & Analytics from University of Westminster. [Check out my acadmic research done at this time.](https://abhinav330.github.io/portfolio-test/research/)
 
 💡 My research interests include LLMs, Generative AI, and Machine Learning Deployment.  
 
@@ -38,8 +38,10 @@ _``
 -They say angels walk among us—if you can help me in my job search, you might just be mine! Let’s connect.
 ``_
 
-
 ---
+
+Here is my Professional Details
+
 
 ## ⚙️ Technical Expertise
 - 🔹 Fine-tuning Large Language Models like BERT  
@@ -78,6 +80,20 @@ Recently, I created [Think AI](https://huggingface.co/spaces/roger33303/Think-AI
   - 🏫 University of Engineering & Management (Jun 2018 - Jun 2022)
   - 🏆 Awards: Chancellor's Award for Tech-Maker 2021 and 2022.
   - 🔭 Research paper: [Dual-Mode Enabled IoT-Based Smart Balcony Gardening in Urban Area.](https://abhinav330.github.io/portfolio-test/publications/)
+
+
+## 🎯 Roles and Responsibilities
+
+- Team Lead@ Cognizat Internship (2022-2022).
+
+- Student Innovation Head @ University of Engineering and Management (2021-2022). 
+
+- Event Coordinator @Ureckon Festival (2021-2022).
+
+- President @IETE Student Forum (2020-2022).
+
+- Automation Engineer@ Cygnus Student-F1 Racting team (2018-2019)
+
 
 
 ## Thank you for giving your time to check my website.

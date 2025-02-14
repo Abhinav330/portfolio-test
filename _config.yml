@@ -236,6 +236,9 @@ collections:
   research:
     output: true
     permalink: /research/:title/
+  story:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -320,7 +323,14 @@ defaults:
       layout: research
       author_profile: true
       share: true
-
+#story
+  - scope:
+      path: ""
+      type: story
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:

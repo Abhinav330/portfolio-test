@@ -1,32 +1,11 @@
 ---
 layout: research-list
 title: "Academic Research"
+author_profile: true
 permalink: /research/
 ---
 
-## 📚 Research Papers
+## 📚 Academic reseach reports and analysis
 
-Welcome to my academic research collection. Click on a research paper to read more.
-
-
-
-<!-- ---
-layout: research-list
-title: "Academic Research"
-permalink: /research/
----
-
-{% assign base_url = "https://abhinav330.github.io/portfolio-test" %}
-
-
-## 📚 Accademic Research reports:
-
-
-{% for paper in site.research %}
-  <div class="research-card">
-    <h2><a href="{{ base_url }}{{ paper.url }}">{{ paper.title }}</a></h2>
-    <p>{{ paper.date | date: "%B %d, %Y" }}</p>
-    <p>{{ paper.description }}</p>
-  </div>
-{% endfor %} -->
+While my masters degree I have done many mendatory research. findout why I got **distinction** in my masters 👇
 

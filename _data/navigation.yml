@@ -20,8 +20,8 @@ main:
   - title: "Certificates"
     url: /certificates/
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - My Story: My Story
+    url: /my_story/    
 
   # - title: "Teaching"
   #   url: /teaching/    

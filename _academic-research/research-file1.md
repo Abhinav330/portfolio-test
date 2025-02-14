@@ -1,6 +1,7 @@
 ---
-title: "Understanding AI for Business"
-description: "This research explores the practical impact of AI in solving real-world business problems."
+title: "Impact of Big Data on Transport for London (TFL)"
+description: "The transportation sector is undergoing a significant transformation fueled by the ever-growing power of big data. As depicted in Figure 1, interest in big data has surged in recent years, reflecting its vast potential for improving efficiency, safety, and passenger experience. Transport for London (TfL), responsible for managing London's complex network of buses, trains, and cycling infrastructure, has emerged as a frontrunner in adopting big data solutions."
+
 date: 2024-02-14
 layout: research
 ---

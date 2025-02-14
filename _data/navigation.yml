@@ -7,12 +7,15 @@
 main:
   - title: "CV"
     url: /files/Abhinav_CV_Feb_25.pdf
-  
-  - title: "Publications"
-    url: /publications/
 
+  - title: "Acadamic Research"
+    url: /research/
+  
   - title: "Projects"
     url: /projects/
+
+  - title: "Publications"
+    url: /publications/
 
   - title: "Certificates"
     url: /certificates/
@@ -24,6 +27,5 @@ main:
   #   url: /teaching/    
     
         
-  - title: "Acadamic Research"
-    url: /research/
+
       

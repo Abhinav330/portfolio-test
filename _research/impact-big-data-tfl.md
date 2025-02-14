@@ -6,9 +6,6 @@ date: 2024-02-14
 layout: research
 ---
 
-
-# Impact of Big Data on Transport for London (TFL)
-
 ![into_img](/portfolio-test/images/research/r1-intro.jpg)
 
 ## Disclaimer

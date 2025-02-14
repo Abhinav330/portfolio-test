@@ -40,10 +40,12 @@ _``
 
 
 ---
+
 ## ⚙️ Technical Expertise
 - 🔹 Fine-tuning Large Language Models like BERT  
 - 🔹 Building Cloud AI Solutions (Azure, GCP)  
 - 🔹 Data Science Consulting & ML Deployment  
+
 ---
 
 ## 🔥 Hardcore AI Projects
@@ -52,6 +54,7 @@ Recently, I created [Think AI](https://huggingface.co/spaces/roger33303/Think-AI
 
 🛠️ I've built several projects related to EDA, AI, and ML.  
 👉 [Check out my project showcase](https://abhinav330.github.io/portfolio-test/projects/)
+
 ---
 
 ## 💼 Professional Experience  
@@ -65,6 +68,7 @@ Recently, I created [Think AI](https://huggingface.co/spaces/roger33303/Think-AI
 📌 Machine Learning Intern @ Tata Steel (2020)  
 
 ---
+
 ## Education 
 - **🎓🎓 Master of Science in Data Science and Analytics** 
   - 🏟 University of Westminster, London (Jan 2024 - Jan 2025)

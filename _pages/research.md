@@ -7,7 +7,8 @@ permalink: /research/
 {% assign base_url = "https://abhinav330.github.io/portfolio-test" %}
 
 
-## 📚 Research Papers
+## 📚 Accademic Research reports:
+
 
 {% for paper in site.research %}
   <div class="research-card">

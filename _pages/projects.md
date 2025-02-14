@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <style>
-/* Project Container */
+/* 📌 Project Container - Adjusts Layout on Different Devices */
 .project-container {
     display: flex;
     flex-direction: column;
@@ -13,38 +13,48 @@ permalink: /projects/
     padding: 20px;
 }
 
-/* Project Card Layout */
+/* 📌 Project Card - Now Uses Flexbox for Responsive Layout */
 .project-card {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background: #1c1c1c;
     padding: 15px;
     border-radius: 10px;
     border: 2px solid #333;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
 }
 
-/* Project Image - 10% */
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+/* 📌 Image Section - Adjusts to Fit Different Screens */
 .project-image {
-    width: 20%;
+    flex: 1;
+    min-width: 150px;
+    max-width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .project-image img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-/* Project Info - 80% */
+/* 📌 Project Info - Adjusts Width Dynamically */
 .project-info {
-    width: 60%;
+    flex: 2;
+    min-width: 250px;
     padding: 0 15px;
     text-align: left;
 }
 
+/* 📌 Title & Description */
 .project-title {
     color: #4aa0ff;
     font-size: 20px;
@@ -53,12 +63,13 @@ permalink: /projects/
 
 .project-description {
     color: #bbb;
-    font-size: 12px;
+    font-size: 14px;
 }
 
-/* Project Buttons - 10% */
+/* 📌 Buttons Section - Now Responsive */
 .project-buttons {
-    width: 20%;
+    flex: 1;
+    min-width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,6 +94,33 @@ permalink: /projects/
 .btn-secondary {
     background: #bbb;
     color: black;
+}
+
+/* 📌 RESPONSIVE DESIGN - Ensures It Looks Good on Mobile */
+@media (max-width: 768px) {
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .project-image {
+        max-width: 80%;
+    }
+
+    .project-info {
+        max-width: 100%;
+    }
+
+    .project-buttons {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .btn {
+        width: auto;
+        padding: 10px 16px;
+    }
 }
 </style>
 

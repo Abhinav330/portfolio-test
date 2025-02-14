@@ -5,76 +5,85 @@ permalink: /projects/
 ---
 
 <style>
-  .project-container {
+/* Project Container */
+.project-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-  }
+}
 
-  .project-card {
+/* Project Card Layout */
+.project-card {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background: #222;
+    background: #1c1c1c;
     padding: 15px;
     border-radius: 10px;
     border: 2px solid #333;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-  }
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-  .project-card:hover {
-    transform: scale(1.03);
-  }
+/* Project Image - 10% */
+.project-image {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-  .project-image img {
-    width: 120px;
-    height: 120px;
+.project-image img {
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
-    object-fit: cover;
-  }
+}
 
-  .project-info {
-    flex: 1;
+/* Project Info - 80% */
+.project-info {
+    width: 80%;
     padding: 0 15px;
-  }
+    text-align: left;
+}
 
-  .project-title {
+.project-title {
     color: #4aa0ff;
     font-size: 20px;
     font-weight: bold;
-  }
+}
 
-  .project-description {
+.project-description {
     color: #bbb;
     font-size: 14px;
-  }
+}
 
-  .project-buttons {
+/* Project Buttons - 10% */
+.project-buttons {
+    width: 10%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
-  }
+}
 
-  .btn {
+.btn {
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 6px;
     font-weight: bold;
     text-align: center;
     display: inline-block;
-  }
+    width: 100%;
+}
 
-  .btn-primary {
+.btn-primary {
     background: #4aa0ff;
     color: white;
-  }
+}
 
-  .btn-secondary {
+.btn-secondary {
     background: #bbb;
     color: black;
-  }
+}
 </style>
 
 <div class="project-container">

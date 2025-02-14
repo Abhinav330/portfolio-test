@@ -14,18 +14,18 @@ layout: default
       <div class="project-container">
         {% for project in site.projects %}
         <div class="project-card">
-          <!-- Left Side: Project Image -->
+          <!-- Left Side: Project Image (10%) -->
           <div class="project-image">
             <img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}">
           </div>
 
-          <!-- Center: Project Info -->
+          <!-- Center: Project Info (80%) -->
           <div class="project-info">
             <h2 class="project-title">{{ project.title }}</h2>
             <p class="project-description">{{ project.description }}</p>
           </div>
 
-          <!-- Right Side: Buttons -->
+          <!-- Right Side: Buttons (10%) -->
           <div class="project-buttons">
             <a href="{{ project.live }}" target="_blank" class="btn btn-primary">Use this project</a>
             <a href="{{ project.github }}" target="_blank" class="btn btn-secondary">Code on GitHub</a>
@@ -36,3 +36,5 @@ layout: default
     </section>
   </article>
 </div>
+
+

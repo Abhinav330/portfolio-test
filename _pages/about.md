@@ -7,9 +7,13 @@ redirect_from:
   - /about.html
 ---
 
+📍 Based in London, UK 🇬🇧  
+
+
+
 ![Albert Einstein](/portfolio-test/images/albert_bhai1.jpg){: .align-right width= "200px"}
 
-📍 Based in London, UK 🇬🇧  
+<hr>
 
 🧠 Albert Einstein once said, _**“If you can't explain it simply, you don't understand it well enough.”**_ I firmly believe in this. AI is not just about algorithms; it’s about solving real-world business problems.   
 

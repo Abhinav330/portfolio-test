@@ -42,7 +42,7 @@ In **my first year**, I got the chance to work as an **Automation Engineer for a
 
 <br>
 
-![Robotics](/portfolio-test/images/about-me/robotics-main.jpg){: .align-left .img-large}
+![Robotics](/portfolio-test/images/about-me/robotics-main.jpg){: .img-large}
 
 In **my second year**, I joined the **core robotics team.** With my knowledge and execution speed, I quickly became a **key member of multiple teams.** I built numerous innovative projects, presented them at **dozens of events,** and even **filed four patents.** 
 

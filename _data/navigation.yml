@@ -20,7 +20,7 @@ main:
   - title: "Certificates"
     url: /certificates/
 
-  - My Story: My Story
+  - title: My Story
     url: /my-story/    
 
   # - title: "Teaching"

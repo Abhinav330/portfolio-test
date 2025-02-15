@@ -8,7 +8,7 @@ author_profile: true
 
 ## 🌍 Introduction: From a Small Town to the World
 
-![me Baby](/portfolio-test/images/about-me/baby.jpg){: .align-right .img-small}
+![me Baby](/portfolio-test/images/about-me/baby.jpg){: .align-right .img-medium}
 
 Hello everyone! This is my story—how a small-town boy from Jharkhand, India, made his way to London, UK. 
 
@@ -22,9 +22,9 @@ Among all these places, **Ranchi, Jharkhand, India, is home.** A place filled wi
 
 I did my schooling in Ranchi. I was **never a topper**—in fact, I barely passed my exams. If someone told my younger self that I would one day complete my Master’s with distinction, I would have laughed in disbelief. 
 
-![Robotics](/portfolio-test/images/about-me/robotics-intro.jpg){: .align-right .img-small}
-
 At 15, I discovered something that changed my life—**Arduino and Robotics.** My first project? A **Bluetooth Home Automation System.** It was the spark that ignited my passion for electronics. Even before this, I loved repairing fans, changing switches, and playing around with circuits since I was **just 10 years old.**
+
+![Robotics](/portfolio-test/images/about-me/robotics-intro.jpg){: .align-right .img-small}
 
 When I performed well in secondary school, I got to choose **Science** as my subject. But it was a complete accident that I stumbled upon **Computer Science** in higher secondary. That accident became **the turning point of my life.** Until then, coding was just a tool to make my robotic systems work. But now, it became **who I was.**
 
@@ -33,7 +33,7 @@ I **barely passed** my higher secondary exams, but despite that, I chose **Compu
 ## 🎓 University Life: From Culture Shock to Innovation
 
 
-![Colege](/portfolio-test/images/about-me/college.jpg){: .align-right .img-small}
+![Colege](/portfolio-test/images/about-me/college.jpg){: .align-right .img-medium}
 
 I pursued my **B.Tech in Computer Science** in **Kolkata, India.** Moving from a small town to a metropolitan city was a **culture shock,** but I adapted quickly. 
 

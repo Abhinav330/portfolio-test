@@ -50,9 +50,13 @@ In **my second year**, I joined the **core robotics team.** With my knowledge an
 
 Then, COVID hit. **Everything was gone in an instant.**
 
+![SIH](/portfolio-test/images/about-me/sih.jpg){: .align-right .img-small}
+
 But challenges bring opportunities. Since no one was delivering results during the pandemic, I stepped up. Soon, I was made the **Student Innovation Head** of my college, negotiating between students and decision-makers, working on projects, and driving innovation in uncertain times. 
 
 ## 💼 Job Life: From Intern to Consultant
+
+![CTS](/portfolio-test/images/about-me/cts.jpg){: .align-left .img-small}
 
 In my **final year**, I was offered an **internship at Cognizant** with an extended job offer. I was made the **team leader, managing 35 interns.** Despite the challenges, we achieved a **99% conversion rate to full-time roles.** This was when I truly understood what **consulting** is all about—**finding a way to grow together.**
 
@@ -61,6 +65,8 @@ During the COVID period, I was introduced to **Machine Learning.** What started 
 I worked with a **European industry leader** and successfully delivered my project. But deep down, I knew I wanted more. I wanted to challenge myself, explore new horizons, and push my limits.
 
 ## ✈️ London Life: A Leap of Faith
+
+![London](/portfolio-test/images/about-me/london.jpg){: .align-right .img-small}
 
 I took the toughest decision of my life—**moving to a new country for my Master’s,** knowing that the job market was **unstable, even the worst in 50 years.**
 
@@ -75,6 +81,8 @@ Recently, I received my **unofficial marks—I graduated with distinction!** �
 ## 🔍 Now: The Job Hunt Battle
 
 And now, here I am. **Looking for a job in AI and Data Science.** 
+
+![me-sad](/portfolio-test/images/about-me/me-sad.jpg){: .align-left .img-small}
 
 **It’s tough.**
 

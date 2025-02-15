@@ -24,7 +24,7 @@ I did my schooling in Ranchi. I was **never a topper**—in fact, I barely passe
 
 At 15, I discovered something that changed my life—**Arduino and Robotics.** My first project? A **Bluetooth Home Automation System.** It was the spark that ignited my passion for electronics. Even before this, I loved repairing fans, changing switches, and playing around with circuits since I was **just 10 years old.**
 
-![Robotics](/portfolio-test/images/about-me/robotics-intro.jpg){: .align-right .img-small}
+![Robotics](/portfolio-test/images/about-me/robotics-intro.jpg){: .align-left .img-small}
 
 When I performed well in secondary school, I got to choose **Science** as my subject. But it was a complete accident that I stumbled upon **Computer Science** in higher secondary. That accident became **the turning point of my life.** Until then, coding was just a tool to make my robotic systems work. But now, it became **who I was.**
 
@@ -32,7 +32,7 @@ I **barely passed** my higher secondary exams, but despite that, I chose **Compu
 
 ## 🎓 University Life: From Culture Shock to Innovation
 
-![Colege](/portfolio-test/images/about-me/college.jpg){: .align-right .img-medium}
+![Colege](/portfolio-test/images/about-me/college.jpg){: .align-right .img-small}
 
 I pursued my **B.Tech in Computer Science** in **Kolkata, India.** Moving from a small town to a metropolitan city was a **culture shock,** but I adapted quickly. 
 
@@ -42,7 +42,7 @@ In **my first year**, I got the chance to work as an **Automation Engineer for a
 
 <br>
 
-![Robotics](/portfolio-test/images/about-me/robotics-main.jpg){: .align-left .img-medium}
+![Robotics](/portfolio-test/images/about-me/robotics-main.jpg){: .align-left .img-large}
 
 In **my second year**, I joined the **core robotics team.** With my knowledge and execution speed, I quickly became a **key member of multiple teams.** I built numerous innovative projects, presented them at **dozens of events,** and even **filed four patents.** 
 

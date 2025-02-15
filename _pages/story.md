@@ -32,12 +32,17 @@ I **barely passed** my higher secondary exams, but despite that, I chose **Compu
 
 ## 🎓 University Life: From Culture Shock to Innovation
 
-
 ![Colege](/portfolio-test/images/about-me/college.jpg){: .align-right .img-medium}
 
 I pursued my **B.Tech in Computer Science** in **Kolkata, India.** Moving from a small town to a metropolitan city was a **culture shock,** but I adapted quickly. 
 
+<br>
+
 In **my first year**, I got the chance to work as an **Automation Engineer for a Student Formula-1 Team.** I built gadgets for the F1 car—**a 360-degree radar, GPS-based locking system, G-force calculator,** and more. This was my **first taste of real-world engineering.** 
+
+<br>
+
+![Robotics](/portfolio-test/images/about-me/robotics-main.jpg){: .align-left .img-medium}
 
 In **my second year**, I joined the **core robotics team.** With my knowledge and execution speed, I quickly became a **key member of multiple teams.** I built numerous innovative projects, presented them at **dozens of events,** and even **filed four patents.** 
 
